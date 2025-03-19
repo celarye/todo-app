@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/96624179">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-left">
+                <h1>Todo App</h1>
+            </div>
+            <div class="nav-right">
+                <button class="github-login-btn">Login With GitHub</button>
+                <div class="user-info">
+                    <div class="user-details">
+                        <span class="username"></span>
+                        <span class="email"></span>
+                    </div>
+                    <img src="https://avatars.githubusercontent.com/u/96624179" class="profile-img">
+                    <button class="logout-btn">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="login-prompt">
+            <h2>Please Log In To See Your Todo Items</h2>
+        </div>
+
+        <div class="todo-container">
+            <h2>Your Todo Items</h2>
+            <ul class="todo-list">
+            </ul>
+            <div class="add-todo">
+                <input type="text" class="new-todo-input" placeholder="New Todo Item">
+                <button class="add-todo-btn">Add</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="user-count">Registered Users: <span></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
