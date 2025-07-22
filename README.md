@@ -1,8 +1,9 @@
 # Todo App
 
-- Web app: https://todo.celarye.dev
-- Source code: https://github.com/Celarye/todo-app
-- Demo video: https://oauth.celarye.dev
+> [!NOTE]
+> This repository has been archived and is no longer maintained. It remains public for reference purposes.
+
+A simple todo app with a Rust backend which relies on Oauth2.
 
 ## Backend
 
